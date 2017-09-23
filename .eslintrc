@@ -12,9 +12,16 @@
 
     // react
         "react/require-default-props": "off",
+        "react/self-closing-comp": "off",
+        "react/prop-types": "off",
 
     //jsx-a11y
         "jsx-a11y/href-no-hash": "off",
+
+    //base
+        "quotes": "off",
+        "jsx-quotes": "off",
+        "arrow-body-style": "off",
     },
     
 }
