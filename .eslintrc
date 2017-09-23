@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb",
+
+    "env": {
+        "node": true,
+        "es6": true,
+    },
+    
+    "rules": {
+    // import
+        "import/no-extraneous-dependencies": "off",
+
+    // react
+        "react/require-default-props": "off",
+
+    //jsx-a11y
+        "jsx-a11y/href-no-hash": "off",
+    },
+    
+}
