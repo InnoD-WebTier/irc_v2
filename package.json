@@ -4,12 +4,14 @@
   "version": "0.0.1",
   "author": "Innovative Design <innovativedesign.club>",
   "dependencies": {
+    "classnames": "^2.2.5",
     "eslint-loader": "^1.9.0",
     "gatsby": "^1.9.36",
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sass": "^1.0.12",
-    "react": "^15.6.1"
+    "react": "^15.6.1",
+    "react-headroom": "^2.2.2"
   },
   "keywords": [
     "gatsby"
