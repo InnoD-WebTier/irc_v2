@@ -7,4 +7,5 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-eslint`,
   ],
+  pathPrefix: `/irc_v2`,
 }
