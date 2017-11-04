@@ -10,7 +10,7 @@
 
     .logo__image {
       height: 60px;
-      margin-top: 5px;
+      margin-top: 8px;
       margin-left: 24px;
     }
   }
@@ -27,12 +27,16 @@
       margin: 24px;
     }
 
+    .link:hover {
+      color: #FFB301;
+    }
+
     .link:before, {
       content: "";
       position: absolute;
       width: 100%;
       height: 2px;
-      bottom: 0;
+      bottom: -8px;
       left: 0;
       background: #FFB301;
       visibility: hidden;
@@ -61,6 +65,7 @@
         margin-top: 1px;
 
         .link {
+          color: #003266;
           width: 100%;
           display: inline-block;
           float: right;
@@ -90,9 +95,10 @@
         margin-top: 15px;
         position: absolute;
         width: 100%;
-        height: 2px;
-        background: black;
+        height: 3px;
+        background: #003266;
         transition: transform 0.3s;
+        border-radius: 20px;
 
         &.bar:nth-child(1) {
           top: 0px;
