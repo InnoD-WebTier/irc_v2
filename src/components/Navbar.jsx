@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import Headroom from 'react-headroom';
 import classNames from 'classnames';
-import logo from '../assets/logo.png';
+import logo from '../assets/images/logo.png';
 import '../styles/navbar.scss';
 
 export default class Navbar extends Component {
