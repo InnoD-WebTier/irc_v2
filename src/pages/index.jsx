@@ -1,17 +1,13 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import OfficerPortrait from '../components/OfficerPortrait';
+import OrganizationPhotoGroup from '../components/OrganizationPhotoGroup';
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>The International Relations Council of Berkeley</h1>
+    <p>Facilitating dialogue on global issues between on-campus student organizations.</p>
 
-    <OfficerPortrait
-      name="CatDog"
-      img="http://via.placeholder.com/150x150"
-    />
+    <OrganizationPhotoGroup />
 
     <Link to="/page-2/">Go to page 2</Link>
   </div>

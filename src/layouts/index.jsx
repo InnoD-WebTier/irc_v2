@@ -27,7 +27,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          NavBar goes here
         </Link>
       </h1>
     </div>

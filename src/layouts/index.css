@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  text-align: center;
 }
 body {
   margin: 0;
@@ -59,6 +60,7 @@ dfn {
   font-style: italic;
 }
 h1 {
+  font-family: Archer Bold;
   font-size: 2em;
   margin: .67em 0;
 }
@@ -198,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: Archer Light;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
