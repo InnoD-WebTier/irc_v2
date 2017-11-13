@@ -1,9 +1,9 @@
 import React from "react";
-import '../styles/OfficerPortrait.scss';
+import '../styles/officer-portrait.scss';
 
 const OfficerPortrait = (props) => {
   return (
-    <div className='OfficerPortrait'>
+    <div className='officer__portrait'>
       <img alt='fuck linters' src={props.img}></img>
       <div>{props.name}</div>
     </div>
