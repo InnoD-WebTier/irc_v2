@@ -62,7 +62,7 @@ export default class Navbar extends Component {
               <Link to="events" className="link">
                 Events
               </Link>
-              <Link to="case-competition" className="link">
+              <Link to="/case-competition/" className="link">
                 Case Competition
               </Link>
               <Link to="blog" className="link">

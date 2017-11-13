@@ -9,3 +9,55 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  font-family: 'Archer';
+}
+
+#city-scape-background {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  overflow: hidden
+}
+
+.section {
+  margin-top: 5%;
+  position: absolute;
+  z-index: 1000;
+  padding-left: 16%;
+  padding-right: 16%;
+
+  .section__header, .section__subline, .section__content {
+    font-weight: 500;
+    text-align: center;
+    margin: 12px;
+    width: 100%;
+  }
+
+  .section__header {
+    font-size: 28px;
+  }
+
+  .section__subline {
+    font-size: 24px;
+  }
+
+  .section__content {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: flex-end;
+  }
+}

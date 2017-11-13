@@ -7,8 +7,13 @@ import '../styles/base.scss';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Navbar />
-    <div>
-      {children}
+    <div
+      style={{
+        margin: '0 auto',
+        paddingTop: 21,
+      }}
+    >
+      {children()}
     </div>
   </div>
 );
