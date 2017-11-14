@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/OrganizationPhoto.scss';
+import '../styles/organizationphoto.scss';
 
 const OrganizationPhoto = (props) => {
   return (
