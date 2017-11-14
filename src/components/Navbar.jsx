@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Headroom from 'react-headroom';
 import classNames from 'classnames';
 import logo from '../assets/images/logo.png';
-import '../styles/navbar.scss';
+import '../styles/Navbar.scss';
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -56,19 +56,19 @@ export default class Navbar extends Component {
               <div className="hamburger__bar bar" />
             </div>
             <div className="links" onClick={this.handleNavOpen}>
-              <Link to="about" className="link">
+              <Link to="/about/" className="link">
                 About
               </Link>
-              <Link to="events" className="link">
+              <Link to="/events/" className="link">
                 Events
               </Link>
-              <Link to="/case-competition/" className="link">
+              <Link to="/case-competitions/" className="link">
                 Case Competition
               </Link>
-              <Link to="blog" className="link">
+              <Link to="/blog/" className="link">
                 Blog
               </Link>
-              <Link to="irc-journal" className="link">
+              <Link to="/irc-journal/" className="link">
                 IRC Journal
               </Link>
             </div>
