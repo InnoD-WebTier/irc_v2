@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import CaseCompetition from '../components/CaseCompetition';
+import '../styles/CaseCompetitionsList.scss';
 
 export default class CaseCompetitionsList extends React.Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import '../styles/CaseCompetition.scss';
 
 const CaseCompetition = props => (
   <div className="CaseCompetition">
