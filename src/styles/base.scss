@@ -1,6 +1,4 @@
-@import 'footer.scss';
-@import 'navbar.scss';
-@import 'archer.scss';
+@import 'archer.scss', '_mixins.scss';
 
 *,
 *:after,
@@ -9,4 +7,20 @@
   position: relative;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Archer';
+  position: relative;
+}
+
+.city-scape__container {
+  @include top-body-margin()
+
+  position: absolute;
+  min-height: 100vh;
+  background-image: url("../assets/images/city-scape-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }

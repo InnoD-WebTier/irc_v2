@@ -1,6 +1,5 @@
 .navbar {
   margin-right: 5px;
-  font-family: 'Archer';
   font-weight: 500;
 
   &.navbar__hamburger {
@@ -65,6 +64,7 @@
         float: right;
         text-align: right;
         margin-top: 1px;
+        background-color: white;
 
         .link {
           color: #003266;
