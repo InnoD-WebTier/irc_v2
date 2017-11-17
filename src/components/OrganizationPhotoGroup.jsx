@@ -1,5 +1,6 @@
 import React from "react";
-import '../styles/organizationphoto.scss';
+import '../styles/OrganizationPhoto.scss';
+import '../styles/OrganizationPhotoGroup.scss';
 import OrganizationPhoto from '../components/OrganizationPhoto';
 import bmun from '../assets/images/BMUN.png';
 import ucbmun from '../assets/images/UCBMUN.png';
