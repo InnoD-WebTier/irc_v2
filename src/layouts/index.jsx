@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import HomePage from '../components/HomePage';
 
 import '../styles/base.scss';
 
@@ -10,11 +9,7 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <Navbar />
-    <HomePage />
-    <div>
-      {children}
-    </div>
-    // {children()}
+    {children()}
     <Footer />
   </div>
 );
