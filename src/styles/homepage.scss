@@ -33,3 +33,39 @@
 	object-fit: cover;
 	left: 0;
 }
+
+.OrgsScreen {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+	font-family: 'Archer';
+	color: #003266;
+	background-color: #F2F0F3; 
+}
+
+.OurHistory {
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 10px #888888;
+}
+
+.ButtonTitle {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	font-weight: 500;
+}
+
+.InfoScreen {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-family: 'Archer';
+	color: #003266;
+	background-color: white; 
+}
