@@ -44,12 +44,69 @@
 	background-color: #F2F0F3; 
 }
 
+.SlantOne {
+	position: absolute;
+	background-color: #EEEFF4;
+	/*background-color: blue;*/
+	width: 120vw;
+	height: 255px;
+	top: 40%;
+	left: -20px;
+	transform: rotate(-5deg);
+	z-index: 2;
+}
+
+.SlantTwo {
+	position: absolute;
+	background-color: #C2CDD8;
+	width: 950px;
+	height: 260px;
+	top: 75%;
+	left: -20px;
+	transform: rotate(-5deg);
+	z-index: 4;
+}
+
+.SlantThree {
+	position: absolute;
+	background-color: #EEEFF4;
+	/*background-color: blue;*/
+	width: 800px;
+	height: 240px;
+	top: 52.5%;
+	left: 606px;
+	transform: rotate(18deg);
+	z-index: 2;
+}
+
+.SlantFour {
+	position: absolute;
+	background-color: #D8DBE5;
+	width: 950px;
+	height: 260px;
+	top: 66%;
+	left: 700px;
+	transform: rotate(-5deg);
+	z-index: 3;
+}
+
+.SlantFive {
+	position: absolute;
+	width: 0; 
+    height: 0; 
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+}
+
 .OurHistory {
 	position: absolute;
 	width: 120px;
 	height: 40px;
 	border-radius: 20px;
 	box-shadow: 1px 1px 10px #888888;
+	background-color: white;
+	z-index: 10; /* temp */
 }
 
 .ButtonTitle {
@@ -59,6 +116,8 @@
 	top: 50%;
 	width: 100%;
 	font-weight: 500;
+	color: #003266;
+	z-index: 11;
 }
 
 .InfoScreen {

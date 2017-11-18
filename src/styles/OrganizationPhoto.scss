@@ -1,16 +1,18 @@
 .OrganizationPhoto {
-	flex-basis: 0;
-    border: 1px solid black;
-    /*width: 25%;
-    height: 15%;*/
-    width: 250px;
+    width: 220px;
     height: 150px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px #888888;
 }
 
 .OrgImage {
 	object-fit: contain;
 	width: 80%;
     height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .OrgHover {
@@ -21,12 +23,12 @@
 	top: 0;
 	background-color: #003266;
 	color: white;
-	/*display: none;*/
-	z-index: 5;
+	opacity: 0;
+	z-index: 13;
 }
 
 .OrgHover:hover {
-	display: block;
+	opacity: 1;
 }
 
 .HoverTitle {
