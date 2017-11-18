@@ -4,8 +4,8 @@ import '../styles/OfficerPortrait.scss';
 const OfficerPortrait = (props) => {
   return (
     <div className='OfficerPortrait'>
-      <img alt='fuck linters' src={props.img}></img>
-      <div>{props.name}</div>
+      <img alt='fuck linters' src={props.data.image}></img>
+      <div>{props.data.name}</div>
     </div>
   );
 };
