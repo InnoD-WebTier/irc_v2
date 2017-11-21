@@ -1,6 +1,6 @@
 .OrganizationPhoto {
-    width: 220px;
-    height: 150px;
+    width: 250px;
+    height: 180px;
     margin: 10px;
     background-color: #FFFFFF;
     box-shadow: 1px 1px 10px #888888;
@@ -10,7 +10,7 @@
 	object-fit: contain;
 	width: 80%;
     height: 80%;
-    left: 50%;
+    left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -25,14 +25,16 @@
 	color: white;
 	opacity: 0;
 	z-index: 13;
+	transition: .2s linear;
 }
 
 .OrgHover:hover {
 	opacity: 1;
+	transition: .2s linear;
 }
 
 .HoverTitle {
-	font-weight: 800;
+	font-weight: 600;
 	margin: 10px;
 }
 

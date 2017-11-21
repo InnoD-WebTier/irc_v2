@@ -46,21 +46,27 @@
 
 .SlantOne {
 	position: absolute;
-	background-color: #EEEFF4;
-	/*background-color: blue;*/
+	background: #EEEFF4; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #dfe0ea, #EEEFF4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dfe0ea, #EEEFF4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #dfe0ea, #EEEFF4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #dfe0ea, #EEEFF4); /* Standard syntax */
 	width: 120vw;
-	height: 255px;
+	height: 35vh;
 	top: 40%;
 	left: -20px;
 	transform: rotate(-5deg);
-	z-index: 2;
 }
 
 .SlantTwo {
 	position: absolute;
-	background-color: #C2CDD8;
-	width: 950px;
-	height: 260px;
+	background-color: #C2CDD8; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #A3B4C4, #C2CDD8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #A3B4C4, #C2CDD8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #A3B4C4, #C2CDD8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #A3B4C4, #C2CDD8); /* Standard syntax */
+	width: 120vw;
+	height: 37vh;
 	top: 75%;
 	left: -20px;
 	transform: rotate(-5deg);
@@ -69,14 +75,12 @@
 
 .SlantThree {
 	position: absolute;
-	background-color: #EEEFF4;
-	/*background-color: blue;*/
+	background-color: #F2F0F3;
 	width: 800px;
 	height: 240px;
-	top: 52.5%;
+	top: 21.5%;
 	left: 606px;
 	transform: rotate(18deg);
-	z-index: 2;
 }
 
 .SlantFour {
@@ -90,23 +94,17 @@
 	z-index: 3;
 }
 
-.SlantFive {
-	position: absolute;
-	width: 0; 
-    height: 0; 
-    border-top: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-left: 60px solid green;
-}
-
 .OurHistory {
 	position: absolute;
-	width: 120px;
-	height: 40px;
-	border-radius: 20px;
+	width: 130px;
+	height: 50px;
+	border-radius: 25px;
 	box-shadow: 1px 1px 10px #888888;
-	background-color: white;
-	z-index: 10; /* temp */
+	background-color: white; 
+	z-index: 10;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -50%);
 }
 
 .ButtonTitle {
@@ -116,6 +114,7 @@
 	top: 50%;
 	width: 100%;
 	font-weight: 500;
+	font-size: 17px;
 	color: #003266;
 	z-index: 11;
 }

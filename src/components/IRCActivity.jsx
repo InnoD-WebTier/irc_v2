@@ -8,7 +8,7 @@ const IRCActivity = (props) => {
       <div className='ActivityTitle'>{props.name}</div>
       <div className='ActivityDescription'>{props.description}</div>
       <div className='ActivityButton'>
-        <div className='ButtonTitle'>More Info</div>
+        <div className='ButtonTitle2'>More Info</div>
       </div>
     </div>
   );

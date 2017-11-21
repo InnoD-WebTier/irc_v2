@@ -1,5 +1,4 @@
 import React from "react";
-import Link from 'gatsby-link';
 import '../styles/homepage.scss';
 import OrganizationPhotoGroup from '../components/OrganizationPhotoGroup';
 import IRCActivity from '../components/IRCActivity';
@@ -24,13 +23,12 @@ const HomePage = () => {
         <div className='SlantOne'></div>
         <div className='SlantTwo'></div>
         <div className='SlantThree'></div>
-        <div className='SlantFour'></div>
         <div className='Title'>
           Founded in 2016 by five UC Berkeley student organizations:
         </div>
         <OrganizationPhotoGroup />
         <div className='OurHistory'>
-          <Link to="/" className='ButtonTitle'>Our History</Link>
+          <div className='ButtonTitle'>Our History</div>
         </div>
       </div>
       <div className='InfoScreen'>
