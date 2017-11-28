@@ -1,0 +1,129 @@
+.TitleScreen {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+	font-family: 'Archer';
+	color: #003266;
+}
+
+.Title {
+	position: absolute;
+	top: 20%;
+	font-weight: 800;
+	font-size: 28px;
+	transform: translate(-50%, -50%);
+	left: 50%;
+}
+
+.Subtitle {
+	position: absolute;
+	top: 30%;
+	font-weight: 400;
+	font-size: 20px;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	width: 40%;
+}
+
+.Background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	left: 0;
+}
+
+.OrgsScreen {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+	font-family: 'Archer';
+	color: #003266;
+	background-color: #F2F0F3; 
+}
+
+.SlantOne {
+	position: absolute;
+	background: #EEEFF4; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #dfe0ea, #EEEFF4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #dfe0ea, #EEEFF4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #dfe0ea, #EEEFF4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #dfe0ea, #EEEFF4); /* Standard syntax */
+	width: 120vw;
+	height: 35vh;
+	top: 40%;
+	left: -20px;
+	transform: rotate(-5deg);
+}
+
+.SlantTwo {
+	position: absolute;
+	background-color: #C2CDD8; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #A3B4C4, #C2CDD8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #A3B4C4, #C2CDD8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #A3B4C4, #C2CDD8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #A3B4C4, #C2CDD8); /* Standard syntax */
+	width: 120vw;
+	height: 37vh;
+	top: 75%;
+	left: -20px;
+	transform: rotate(-5deg);
+	z-index: 4;
+}
+
+.SlantThree {
+	position: absolute;
+	background-color: #F2F0F3;
+	width: 800px;
+	height: 240px;
+	top: 21.5%;
+	left: 606px;
+	transform: rotate(18deg);
+}
+
+.SlantFour {
+	position: absolute;
+	background-color: #D8DBE5;
+	width: 950px;
+	height: 260px;
+	top: 66%;
+	left: 700px;
+	transform: rotate(-5deg);
+	z-index: 3;
+}
+
+.OurHistory {
+	position: absolute;
+	width: 130px;
+	height: 50px;
+	border-radius: 25px;
+	box-shadow: 1px 1px 10px #888888;
+	background-color: white; 
+	z-index: 10;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -50%);
+}
+
+.ButtonTitle {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	font-weight: 500;
+	font-size: 17px;
+	color: #003266;
+	z-index: 11;
+}
+
+.InfoScreen {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-family: 'Archer';
+	color: #003266;
+	background-color: white; 
+}
