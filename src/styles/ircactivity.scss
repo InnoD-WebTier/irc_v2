@@ -1,0 +1,51 @@
+.IRCActivity {
+	margin-top: 20%;
+	margin-bottom: 10%;
+	position: relative;
+	/*width: 20%;
+	height: 70%;*/
+	/*flex-basis: 0;*/
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+}
+
+.ActivityLogo {
+	object-fit: contain;
+	width: 50%;
+	height: 30%;
+}
+
+.ActivityTitle {
+	font-weight: 800;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.ActivityDescription {
+	font-weight: 300;
+	width: 80%;
+	left: 10%;
+}
+
+.ActivityButton {
+	/*position: absolute;*/
+	width: 120px;
+	height: 40px;
+	background-color: #003266;
+	border-radius: 20px;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	margin-top: 60px;
+	box-shadow: 1px 1px 10px #888888;
+}
+
+.ButtonTitle2 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	font-weight: 500;
+	color: white;
+}

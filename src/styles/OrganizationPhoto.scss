@@ -1,7 +1,46 @@
 .OrganizationPhoto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: flex-start;
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+.OrgImage {
+	object-fit: contain;
+	width: 80%;
+    height: 80%;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.OrgHover {
+	font-family: 'Archer';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: #003266;
+	color: white;
+	opacity: 0;
+	z-index: 13;
+	transition: .2s linear;
+}
+
+.OrgHover:hover {
+	opacity: 1;
+	transition: .2s linear;
+}
+
+.HoverTitle {
+	font-weight: 600;
+	margin: 10px;
+}
+
+.HoverDescription {
+	left: 5%;
+	width: 90%;
+	font-weight: 400;
+	font-size: 14px;
 }

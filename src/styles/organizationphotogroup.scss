@@ -1,0 +1,17 @@
+.OrganizationPhotoGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+	position: absolute;
+}
+
+.PhotoWrapper {
+	z-index: 12;
+	width: 70%;
+	height: 50%;
+	left: 15%;
+	top: 30%;
+}
