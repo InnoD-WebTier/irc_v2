@@ -10,6 +10,8 @@
     "gatsby-link": "^1.6.15",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sass": "^1.0.12",
+    "gatsby-source-filesystem": "^1.5.8",
+    "gatsby-transformer-remark": "^1.7.21",
     "react": "^15.6.1",
     "react-headroom": "^2.2.2"
   },
@@ -29,11 +31,11 @@
     "babel-eslint": "^8.0.0",
     "eslint": "^4.7.0",
     "eslint-config-airbnb": "^15.1.0",
-    "gatsby-plugin-eslint": "emesde/gatsby-plugin-eslint",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.3.0",
+    "gatsby-plugin-eslint": "emesde/gatsby-plugin-eslint",
     "prettier": "^1.6.1"
   }
 }
