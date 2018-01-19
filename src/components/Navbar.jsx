@@ -10,7 +10,7 @@ export default class Navbar extends Component {
     super(props);
     this.state = {
       open: false,
-      maxHeight: 50,
+      maxHeight: 72,
     };
 
     this.handleNavOpen = this.handleNavOpen.bind(this);
