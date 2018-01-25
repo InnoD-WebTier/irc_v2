@@ -6,7 +6,6 @@ import EventList from '../components/EventList';
 
 export default function Events({ data }) {
   const events = data.allMarkdownRemark.edges;
-  console.log(events);
   return (
     <EventList events={events} />
   );
@@ -30,9 +29,11 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
+          body
           frontmatter {
             title
+            subtitle
+            date
           }
         }
       }
