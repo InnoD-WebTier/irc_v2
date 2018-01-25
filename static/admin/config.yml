@@ -19,13 +19,13 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-	- name: "case-comps"
-		label: "Case Competitions"
-		folder: "src/content/case-competitions"
-		create: true
+  - name: "casecomps"
+    label: "Case Competitions"
+    folder: "src/content/case-competitions"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-			- {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
       - {label: "Path", name: "path", widget: "hidden"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
