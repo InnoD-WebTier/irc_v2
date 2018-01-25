@@ -4,7 +4,11 @@ import Event from '../components/Event';
 const EventsList = props => (
   <div className="EventsList">
     {props.events.map((event) => {
-      return <Event title={event.title} date={event.date} info={event.info} />;
+      return (<Event
+        title={event.node.frontmatter.title}
+        date={event.node.frontmatter.date}
+        info={event.info}
+      />);
     })}
   </div>
 );
