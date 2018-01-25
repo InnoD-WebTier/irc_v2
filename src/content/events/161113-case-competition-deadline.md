@@ -1,5 +1,6 @@
 ---
 title: Submission deadline for the International Relations Review of Berkeley.
+subtitle: IRC
 date: November 13th
 ---
 

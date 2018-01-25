@@ -7,7 +7,7 @@ const EventsList = props => (
       return (<Event
         title={event.node.frontmatter.title}
         date={event.node.frontmatter.date}
-        info={event.node.body}
+        info={event.node.html}
       />);
     })}
   </div>

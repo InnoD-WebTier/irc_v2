@@ -5,7 +5,7 @@ const Event = (props) => {
   return (
     <div className='Event'>
       <a href='#' className='Event__Title'> {props.title} | {props.date} </a>
-      <p className='Event__Info'> {props.info} </p>
+      <p className='Event__Info'>{props.info}</p>
     </div>
   );
 };

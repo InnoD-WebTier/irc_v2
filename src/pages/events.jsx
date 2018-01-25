@@ -29,11 +29,9 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          body
+          html
           frontmatter {
             title
-            subtitle
-            date
           }
         }
       }
