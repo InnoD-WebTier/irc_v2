@@ -1,1 +1,31 @@
-.Event { }
+.Event {
+  margin-bottom: 36px;
+  width: 100%;
+
+  .Event__Header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Event__Title, .Event__Sub {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .Event__Title {
+    width: 70%;
+    color: #003266;
+    font-size: 24pt;
+  }
+
+  .Event__Sub { 
+    color: rgba(#003266, 0.7);
+    font-size: 18pt;
+    margin: 4px 0 16px;
+  }
+
+  .Event__Info {
+    font-size: 14pt;
+  }
+}

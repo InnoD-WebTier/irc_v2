@@ -42,3 +42,4 @@ collections:
       - {label: "Subtitle", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string", required: false}

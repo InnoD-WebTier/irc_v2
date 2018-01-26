@@ -7,19 +7,11 @@ import EventList from '../components/EventList';
 export default function Events({ data }) {
   const events = data.allMarkdownRemark.edges;
   return (
-    <EventList events={events} />
+    <div className="city-scape__container">
+      <EventList events={events} />
+    </div>
   );
 }
-// export default class Events extends React.Component {
-//   render() {
-//     const events = 
-
-//     return (
-//       <EventList events={events} />
-//     );
-//   }
-// }
-
 
 export const pageQuery = graphql`
   query EventsQuery {
@@ -32,6 +24,9 @@ export const pageQuery = graphql`
           html
           frontmatter {
             title
+            subtitle
+            date
+            link
           }
         }
       }

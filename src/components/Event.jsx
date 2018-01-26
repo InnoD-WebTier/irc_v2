@@ -2,10 +2,15 @@ import React from "react";
 import '../styles/Event.scss';
 
 const Event = (props) => {
+  const createBody = (body) => { return { __html: body }; };
+
   return (
     <div className='Event'>
-      <a href='#' className='Event__Title'> {props.title} | {props.date} </a>
-      <p className='Event__Info'>{props.info}</p>
+      <div className="Event__Header">
+        <a href='#' className='Event__Title'> {props.title} </a>
+        <span className='Event__Sub'>{props.date}</span>
+      </div>
+      <div className='Event__Info' dangerouslySetInnerHTML={createBody(props.info)} />
     </div>
   );
 };

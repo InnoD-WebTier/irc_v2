@@ -1,6 +1,8 @@
 ---
 title: Example Event
+subtitle: OK
 date: January 1st
+link: #
 ---
 
-wkdslkjlk
+Lorem Ipsum, of some sort
