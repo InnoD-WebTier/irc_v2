@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: prod
 
 media_folder: "/src/pages/img"
 public_folder: "img"
@@ -22,12 +22,11 @@ collections:
   - name: "casecomps"
     label: "Case Competitions"
     folder: "src/content/case-competitions"
-    create: true
+    create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
       - {label: "Path", name: "path", widget: "hidden"}
-      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "events"
@@ -39,7 +38,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
       - {label: "Path", name: "path", widget: "hidden"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Link", name: "url", widget: "string", required: false}
