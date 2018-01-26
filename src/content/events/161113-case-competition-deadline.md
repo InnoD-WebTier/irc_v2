@@ -2,7 +2,7 @@
 title: IRR Application Deadline
 subtitle: IRC
 date: November 13th
-link: #
+url: '#'
 ---
 
 The IRC will be hosting its first case competition on November 6th, from 11AM-4PM.

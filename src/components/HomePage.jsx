@@ -29,6 +29,7 @@ const HomePage = () => {
         <OrganizationPhotoGroup />
         <div className='OurHistory'>
           <div className='ButtonTitle'>Our History</div>
+          <div style={{ marginTop: '60px' }}>Placeholder text</div>
         </div>
       </div>
       <div className='InfoScreen'>
@@ -40,18 +41,21 @@ const HomePage = () => {
           description="We invite teams of Berkeley students to develop innovative solutions to
           the most pressing problems in international relations and developmental politics."
           img={casecomp}
+          link='/case-competitions'
         />
         <IRCActivity
           name="IRC Blog"
           description="The Global Citizen is a student-run blog about all things international
           relations, updated bi-monthly. We're looking for new contributors!"
           img={blog}
+          link='/blog'
         />
         <IRCActivity
           name="IRC Journal"
           description="The International Relations Review of Berkeley is published semesterly.
           This semester's theme is &quot;International Law and Disorder&quot;."
           img={journal}
+          link='/irc-journal'
         />
       </div>
     </div>

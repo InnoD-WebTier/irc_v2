@@ -11,6 +11,7 @@ const EventsList = props => (
         subtitle={event.node.frontmatter.subtitle}
         date={event.node.frontmatter.date}
         info={event.node.html}
+        url={event.node.frontmatter.url}
       />);
     })}
   </div>
