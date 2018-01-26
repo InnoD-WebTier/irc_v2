@@ -7,6 +7,7 @@ import ucbmun from '../assets/images/UCBMUN.png';
 import sip from '../assets/images/SIP.png';
 import dps from '../assets/images/DPS.png';
 import amnesty from '../assets/images/Amnesty.png';
+import ahs from '../assets/images/AHS.png';
 
 const OrganizationPhotoGroup = () => {
   return (
@@ -16,7 +17,7 @@ const OrganizationPhotoGroup = () => {
           name="AHS"
           description="Non-partisan debate organization that inspires and educates
           students in the importance of American leadership in the world"
-          img={bmun}
+          img={ahs}
         />
         <OrganizationPhoto
           name="BMUN"
