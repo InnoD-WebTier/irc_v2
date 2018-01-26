@@ -20,17 +20,17 @@ const HomePage = () => {
         </div>
       </div>
       <div className='OrgsScreen'>
-        <div className='SlantOne'></div>
-        <div className='SlantTwo'></div>
-        <div className='SlantThree'></div>
         <div className='Title'>
-          Founded in 2016 by five UC Berkeley student organizations:
+          Founded in 2016 by six UC Berkeley student organizations:
         </div>
         <OrganizationPhotoGroup />
         <div className='OurHistory'>
           <div className='ButtonTitle'>Our History</div>
           <div style={{ marginTop: '60px' }}>Placeholder text</div>
         </div>
+        <div className='SlantOne'></div>
+        <div className='SlantTwo'></div>
+        <div className='SlantThree'></div>
       </div>
       <div className='InfoScreen'>
         <div className='Title'>

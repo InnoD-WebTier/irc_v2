@@ -1,23 +1,22 @@
 .CaseCompetition {
   margin-bottom: 32px;
 
-  .title, .date, .description {
+  h1, h2, p {
     font-weight: 500;
-    text-align: center;
     margin: 12px;
     width: 100%;
   }
 
-  .title {
+  h1 {
     color: #003266;
     font-size: 28px;
   }
 
-  .date {
+  h2 {
     font-size: 24px;
   }
 
-  .description {
+  p {
     font-size: 20px;
     font-weight: 400;
   }
@@ -28,22 +27,21 @@
   .CaseCompetition {
     margin-bottom: 24px;
 
-    .title, .date, .description {
+    h1, h2, p {
       font-weight: 500;
-      text-align: center;
       margin: 12px;
       width: 100%;
     }
 
-    .title {
+    h1 {
       font-size: 24px;
     }
 
-    .date {
+    h2 {
       font-size: 20px;
     }
 
-    .description {
+    p {
       font-size: 16px;
       font-weight: 400;
     }

@@ -14,6 +14,7 @@
 	font-size: 28px;
 	transform: translate(-50%, -50%);
 	left: 50%;
+	z-index: 30;
 }
 
 .Subtitle {
@@ -42,6 +43,10 @@
 	font-family: 'Archer';
 	color: #003266;
 	background-color: #F2F0F3; 
+}
+
+.SlantsContainer {
+	position: relative;	
 }
 
 .SlantOne {

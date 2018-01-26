@@ -10,7 +10,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/content/case-competitions`,
-        name: 'competitions',
+        name: 'caseCompetitions',
       },
     },
     {
