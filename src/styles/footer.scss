@@ -1,10 +1,11 @@
 .footer {
   background: #003266;
-  height: 60px;
+  height: 80px;
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 100;
+  .disclaimer { color: rgba(#fff, 0.2); text-align: center; width: 100vw; font-size: 10pt;}
 
   .media {
     font-size: 18px;
@@ -31,5 +32,17 @@
         color: #FFB301;
       }
     }
+
+    .ocf {
+      > img {
+        max-width: 112px;
+        height: auto;
+        padding-right: 32px;
+      }
+      position: absolute;
+      right: 0;
+    }
+
+
   }
 }
