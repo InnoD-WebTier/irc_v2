@@ -1,5 +1,6 @@
 import React from "react";
 import OfficerPortrait from '../components/OfficerPortrait';
+import '../styles/about.scss';
 
 const OfficerPortraitGroup = () => {
   // this list will be fed by a officer img data
@@ -45,7 +46,7 @@ const OfficerPortraitGroup = () => {
   return (
     <div className="">
       {people.map(person => (
-        <div className="">
+        <div className="officerPic">
           <OfficerPortrait data={person} />
         </div>
       ))}

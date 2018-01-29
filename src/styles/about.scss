@@ -1,0 +1,92 @@
+.historyContainer{
+	margin-top:100px;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+  font-family: 'Archer';
+	color: #003266;
+}
+
+.historyText {
+	margin-top:20px;
+	text-align: center;
+  font-family: 'Archer';
+	color: #003266;
+}
+.membershipText{
+	margin-top:20px;
+	text-align: center;
+  font-family: 'Archer';
+	color: #003266;
+	text-align: center;
+}
+
+	.TitleScreen {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		text-align: center;
+		font-family: 'Archer';
+		color: #003266;
+	}
+
+	.Title {
+		position: absolute;
+		top: 20%;
+		font-weight: 800;
+		font-size: 28px;
+		transform: translate(-50%, -50%);
+		left: 50%;
+	}
+
+	.Subtitle {
+		position: absolute;
+		top: 30%;
+		font-weight: 400;
+		font-size: 20px;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		width: 40%;
+	}
+
+	.Background {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		object-fit: cover;
+		left: 0;
+	}
+	.membership {
+		padding-top:90px;
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		text-align: center;
+		font-family: 'Archer';
+		color: #003266;
+		background-color: #F2F0F3;
+	}
+
+	.OrgsScreen {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		text-align: center;
+		font-family: 'Archer';
+		color: #003266;
+		background-color: #F2F0F3;
+	}
+
+	.OurHistory {
+		position: absolute;
+		width: 130px;
+		height: 50px;
+		border-radius: 25px;
+		box-shadow: 1px 1px 10px #888888;
+		background-color: white;
+		z-index: 10;
+		left: 50%;
+		top: 95%;
+		transform: translate(-50%, -50%);
+	}
