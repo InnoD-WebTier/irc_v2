@@ -26,12 +26,13 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="OrgsScreen">
-        <div className="OfficerAlbum">
-          <OfficerAlbum />
+      <div className="OfficerAlbum">
+        <div className="historyText">
+          <h1>Executive Committee</h1>
         </div>
+        <OfficerAlbum />
       </div>
-      <div className='OrgsScreen'>
+      <div className='OrgsScreen' styles='marginTop:10%;'>
         <div className='Title'>
           Organizations
         </div>
@@ -46,7 +47,8 @@ const About = () => {
              submit a formal statement of interest to the Secretary-General detailing their
              international relations focus, their interest and level of involvement in the IRC.
              Please reach out to ircofberkeley@gmail.com to submit a statement of interest, or
-             with any questions regarding joining the IRC!</p>
+             with any questions regarding joining the IRC!
+        </p>
       </div>
     </div>
   );
