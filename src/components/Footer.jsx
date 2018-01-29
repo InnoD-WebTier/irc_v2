@@ -1,9 +1,23 @@
+/* eslint-disable */
+
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import '../styles/footer.scss';
 
 export default class Footer extends Component {
   /* eslint-disable jsx-a11y/no-static-element-interactions */
+  componentDidMount() {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  }
+
   render() {
     return (
       <div className="footer">

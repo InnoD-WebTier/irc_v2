@@ -1,0 +1,31 @@
+.BlogPost {
+  margin-bottom: 36px;
+  width: 100%;
+
+  .BlogPost__Header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .BlogPost__Title, .BlogPost__Sub {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .BlogPost__Title {
+    width: 70%;
+    color: #003266;
+    font-size: 24pt;
+  }
+
+  .BlogPost__Sub { 
+    color: rgba(#003266, 0.7);
+    font-size: 18pt;
+    margin: 4px 0 16px;
+  }
+
+  .BlogPost__Info {
+    font-size: 14pt;
+  }
+}
