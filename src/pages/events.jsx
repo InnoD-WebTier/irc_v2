@@ -17,7 +17,7 @@ export const pageQuery = graphql`
   query EventsQuery {
     allMarkdownRemark(
       filter: {fileAbsolutePath: {regex: "/events/.*\\.md$/"}},
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: ASC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
@@ -26,7 +26,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             subtitle
-            date(formatString: "MMMM DD")
+            date(formatString: "MMMM DD, YYYY")
             url
           }
         }
