@@ -6,7 +6,6 @@ import '../styles/CaseCompetitionsList.scss';
 
 
 export default function CaseCompetitionsList({ comps }) {
-  console.log(comps);
   const caseCompetitions = comps.map(
     competition => (
       <CaseCompetition

@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `InnoD Web Starter`,
+    title: `IRC Berkeley`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-eslint`,
+//    `gatsby-plugin-eslint`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -22,10 +22,10 @@ module.exports = {
     },
     { 
       resolve: 'gatsby-transformer-remark', 
-      options: { 
-        plugins: [],
-      },
+      //options: { 
+        //plugins: [],
+      //},
     },
   ],
-  pathPrefix: `/irc_v2`,
+  pathPrefix: `/~ircb`,
 }
