@@ -7,6 +7,9 @@ import '../styles/footer.scss';
 export default class Footer extends Component {
   /* eslint-disable jsx-a11y/no-static-element-interactions */
   componentDidMount() {
+    if (document.location.href.indexOf('ocf') > -1) {
+      document.location.href = 'https://ircb.berkeley.edu';
+    }
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {
