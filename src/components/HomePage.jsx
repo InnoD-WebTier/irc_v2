@@ -45,6 +45,7 @@ const HomePage = () => {
           relations, updated bi-monthly. We're looking for new contributors!"
           img={blog}
           link='https://medium.com/@ircofberkeley'
+          external
         />
         <IRCActivity
           name="IRC Journal"
@@ -52,6 +53,7 @@ const HomePage = () => {
           This semester's theme is &quot;International Law and Disorder&quot;."
           img={journal}
           link='/irc-journal'
+
         />
       </div>
     </div>

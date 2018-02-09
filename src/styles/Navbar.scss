@@ -1,7 +1,7 @@
 .navbar {
   margin-right: 5px;
   font-weight: 500;
-  z-index: 100;
+  z-index: 10000;
 
   &.navbar__hamburger {
     display:none;
@@ -58,7 +58,9 @@
 
   .navbar {
 
+
     &.navbar--open {
+      z-index: 1000;
 
       .links {
         display: block;
