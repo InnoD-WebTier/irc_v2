@@ -20,7 +20,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className='OrgsScreen'>
-        <div className='Title'>
+        <div className='Title' style={{zIndex:2}}>
           Founded in 2016 by six UC Berkeley student organizations:
         </div>
         <OrganizationPhotoGroup />
