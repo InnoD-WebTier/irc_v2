@@ -65,9 +65,9 @@ export default class Navbar extends Component {
               <Link to="/case-competitions/" className="link">
                 Case Competition
               </Link>
-              <Link to="/blog/" className="link">
+              <a href="https://medium.com/@ircofberkeley" target="_blank" className="link">
                 Blog
-              </Link>
+              </a>
               <Link to="/irc-journal/" className="link">
                 IRC Journal
               </Link>
