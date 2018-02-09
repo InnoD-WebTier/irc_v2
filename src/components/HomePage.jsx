@@ -24,10 +24,6 @@ const HomePage = () => {
           Founded in 2016 by six UC Berkeley student organizations:
         </div>
         <OrganizationPhotoGroup />
-        <div className='OurHistory'>
-          <div className='ButtonTitle'>Our History</div>
-          <div style={{ marginTop: '60px' }}>Placeholder text</div>
-        </div>
         <div className='SlantOne'></div>
         <div className='SlantTwo'></div>
         <div className='SlantThree'></div>
@@ -48,7 +44,7 @@ const HomePage = () => {
           description="The Global Citizen is a student-run blog about all things international
           relations, updated bi-monthly. We're looking for new contributors!"
           img={blog}
-          link='/blog'
+          link='https://medium.com/@ircofberkeley'
         />
         <IRCActivity
           name="IRC Journal"
