@@ -17,7 +17,7 @@ export default class Navbar extends Component {
   }
 
   handleNavOpen(e) {
-    e.preventDefault();
+    //e.preventDefault();
     this.setState({
       open: !this.state.open,
     });
