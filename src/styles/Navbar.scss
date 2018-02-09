@@ -21,6 +21,7 @@
     text-align: right;
     float: right;
     margin-top: 25px;
+    z-index:10000;
 
     .link {
       text-decoration: none;
@@ -55,26 +56,22 @@
 }
 
 @media (max-width: 900px) {
-
   .navbar {
-
-
     &.navbar--open {
-      z-index: 1000;
-
       .links {
         display: block;
+        position: absolute;
         float: right;
         text-align: right;
         margin-top: 1px;
-        background-color: white;
+        background-color: #ffffff;
 
         .link {
           color: #003266;
           width: 100%;
           display: inline-block;
           float: right;
-          margin-right: 72px;
+          margin-right: 40px;
           margin-top: 1px;
         }
 
@@ -89,6 +86,7 @@
     }
 
     .navbar__hamburger {
+      position: relative !important;
       display: inline-block;
       float: right;
       height: 40px;
