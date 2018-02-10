@@ -28,9 +28,7 @@ const OrganizationPhotoGroup = () => {
         />
         <OrganizationPhoto
           name="UCBMUN"
-          description="A student run organization on the UC Berkeley campus dedicated
-            to planning and hosting the biggest high school Model United Nations conference
-            on the West Coast, and the oldest conference in the nation."
+          description="University of California, Berkeley's competitive Model United Nations team. In addition to its top ranked travel team, UCBMUN hosts the west coast's oldest running intercollegiate conference every year in spring in San Francisco, CA. This coming spring, UCBMUN XXI will be hosted at Hilton Financial District, San Francisco from March 2 - March 5, 2017."
           img={ucbmun}
         />
         <OrganizationPhoto
